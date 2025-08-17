@@ -1,0 +1,23 @@
+# === OnlyFive Auto-Buy Bot (Top5 Status Logger) ===
+timezone: Asia/Tokyo
+drop_time: "2025-08-16 17:53:00"
+dry_run: true   # 必ず「購入する」を押さず判定のみ
+
+auth_state_path: "auth.json"
+base_url: "https://only-five.jp"
+
+status_csv: "logs/status.csv"
+
+headless: true
+block_resources: ["image","font","stylesheet"]
+
+post_click_timeout_ms: 3000
+detail_wait_timeout_ms: 3500
+max_posts: 5   # ← 上位5件を対象
+
+targets:
+  - name: "CreatorA"
+    url: "https://only-five.jp/creators/xxxx" #
+    post_link_selector: "a[href^='/posts/']"
+    soldout_badge_selector: ".remains-count.sold-out"
+    buy_button_selector: "a.buy-button"

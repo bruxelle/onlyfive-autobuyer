@@ -1,0 +1,5 @@
+timestamp,creator,index,post_url,status,button_text,button_class,button_href,elapsed_ms,error
+2025-08-17T19:44:44,login_check,1,https://only-five.jp/posts/392182,buyable,購入する,buy-button,/posts/392182/charge_confirmation,761.8,
+2025-08-17T19:47:12,login_check,1,https://only-five.jp/posts/392182,buyable,購入する,buy-button,/posts/392182/charge_confirmation,624.6,
+2025-08-17T20:27:40,login_check,1,https://only-five.jp/posts/392182,buyable,購入する,buy-button,/posts/392182/charge_confirmation,874.1,
+2025-08-17T21:02:11,login_check,1,https://only-five.jp/posts/392182,buyable,購入する,buy-button,/posts/392182/charge_confirmation,726.5,
